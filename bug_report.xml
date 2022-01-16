@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bug_report>
+  
+  <Bug_Name>Application crash on clicking the SAVE button while creating a new user.</Bug_Name>
+  <Bug_ID>4567</Bug_ID>
+  <Build_Number>5.0.1</Build_Number>
+  <Severity>High</Severity>
+  <Priority>Medium</Priority>
+  <Assigned_to>Piotr</Assigned_to>
+  <Created_By>Iryna</Created_By>
+  <Status>Open</Status>
+  <Environment>Windows Safari 4.5</Environment>
+  
+  <Description>
+  Application crash on clicking the SAVE button while creating a new user, hence unable to create a new user in the application.
+  </Description>
+  
+    <StepsToReproduce>
+      <step>Logon into the application</step>
+      <step>Navigate to the Users Menu</step>
+      <step>Filled all the fields</step>
+      <step>Clicked on ‘Save’ button</step>
+      <step>Seen an error page...</step>
+      <step>See the attached logs for more information</step>
+      <step>And also see the attached screenshot of the error page.</step>
+    </StepsToReproduce>
+  
+  <Expected_result>
+    On clicking SAVE button should be prompted to a success message “New User has been created successfully”.
+  </Expected_result>
+  
+</Bug_report>
+
